@@ -1,0 +1,31 @@
+<%- include('includes/header.ejs') %>
+</head>
+
+<body>
+
+<%- include('includes/nav.ejs') %>
+<h1>welcome to creation</h1>
+<div class="container">
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Title</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Title">
+        <label for="exampleTextarea">Example textarea</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        <div class="input-group mb-3 my-3">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile02">
+                <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+                <span class="input-group-text" id="">Upload</span>
+            </div>
+        </div>
+        <label for="exampleTextarea">Example</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"
+        style="margin-top: 0px; margin-bottom: 0px; height: 87px;"></textarea>
+    </div>
+</div>
+    
+    <% include('includes/footer.ejs') %>
